@@ -1,0 +1,3 @@
+{"tipo": "Estagi\u00e1rio", "nome": "Nat\u00e3n Teixeira Vieira", "endereco": "teste", "cpf": "99999999999", "data_admissao": "10/02/2005", "salario_liquido": 1302}
+{"tipo": "Efetivo", "nome": "Dyeison", "endereco": "av. teste", "cpf": "22222222222", "data_admissao": "10/08/1977", "salario_liquido": 1350.0}
+{"tipo": "Temporario", "nome": "Ruan", "endereco": "testando", "cpf": "11111111111", "data_admissao": "04/02/2002", "salario_liquido": 1800}
