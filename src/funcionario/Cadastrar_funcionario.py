@@ -1,16 +1,14 @@
-from utils.pegar_db import pegar_txt
+from utils.Utils import Utils
 import json
-
 
 class Cadastrar_funcionario:
   def __init__(self):
     self.nome = str(input("Digite o nome do funcionario: "))
-    self.tipo = "Temporario"
     self.cpf = input("Digite o CPF: ")
     self.endereco = input("Digite o endereço: ")
     self.data_admissao = input("Data de admissão (dd/mm/aa): ")
 
-    self.arquivo_txt = pegar_txt()
+    self.arquivo_txt = Utils.pegar_txt()
 
   def cadastrar_funcionario(self, tipo, salario_liquido):
       cadastro = {

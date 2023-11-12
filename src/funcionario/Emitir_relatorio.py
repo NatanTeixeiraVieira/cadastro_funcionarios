@@ -1,9 +1,9 @@
-from utils.pegar_db import pegar_txt
+from utils.Utils import Utils
 import json
 
 class Emitir_relatorio:
   def __init__(self):
-    self.arquivo_txt = pegar_txt()
+    self.arquivo_txt = Utils.pegar_txt()
     self.emitir_relatorio()
 
   def emitir_relatorio(self):
