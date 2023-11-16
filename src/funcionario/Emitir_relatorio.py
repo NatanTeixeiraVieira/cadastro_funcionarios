@@ -20,5 +20,5 @@ class Emitir_relatorio:
     print(f'Endereço: {funcionario["endereco"]}')
     print(f'CPF: {funcionario["cpf"]}')
     print(f'Data de admissão: {funcionario["data_admissao"]}')
-    print(f'Salário líquido: {funcionario["salario_liquido"]}')
+    print(f'Salário líquido: R${funcionario["salario_liquido"]:.2f}')
     print("==========================================================")

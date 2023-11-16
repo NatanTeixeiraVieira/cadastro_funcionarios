@@ -1,4 +1,5 @@
 from funcionario.Cadastrar_funcionario import Cadastrar_funcionario
+from solicitar_informacoes.Funcionario import Funcionario
 
 class Cadastrar_funcionario_efetivo(Cadastrar_funcionario):
 	def __init__(self):
@@ -6,7 +7,7 @@ class Cadastrar_funcionario_efetivo(Cadastrar_funcionario):
 		
 		super().__init__()
 
-		self.salario_base = float(input("Digite o salário base do funcionário: "))
+		self.salario_base = Funcionario.salario("Digite o salário base do funcionário")
 		self.salario_liquido = self.calcular_salario_liquido()
 
 		self.cadastrar_funcionario(self.tipo, self.salario_liquido)

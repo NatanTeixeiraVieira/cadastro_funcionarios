@@ -16,8 +16,12 @@ class Utils:
 
   @staticmethod
   def repetir_acao(mensagem):
-    print(mensagem)
+    print(f"\n{mensagem}")
     print("Sim - s")
     print("Não - Qualquer caractere exceto 's'")
     resposta = input("--> ")
     return resposta
+  
+  @staticmethod
+  def mensagem_opcao_invalida():
+    print("Opção inválida.\n")

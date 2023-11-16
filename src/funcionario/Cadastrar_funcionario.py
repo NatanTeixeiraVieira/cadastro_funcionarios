@@ -1,12 +1,13 @@
 from utils.Utils import Utils
+from solicitar_informacoes.Funcionario import Funcionario
 import json
 
 class Cadastrar_funcionario:
   def __init__(self):
-    self.nome = str(input("Digite o nome do funcionario: "))
-    self.cpf = input("Digite o CPF: ")
-    self.endereco = input("Digite o endereço: ")
-    self.data_admissao = input("Data de admissão (dd/mm/aa): ")
+    self.nome = Funcionario.nome()
+    self.cpf = Funcionario.cpf()
+    self.endereco = Funcionario.endereco()
+    self.data_admissao = Funcionario.data_admissao()
 
     self.arquivo_txt = Utils.pegar_txt()
 

@@ -7,4 +7,4 @@ class Cadastrar_funcionario_estagiario(Cadastrar_funcionario):
 
     super().__init__()
 
-    self.cadastrar_funcionario(self.tipo, self.salario_liquido)
+    super().cadastrar_funcionario(self.tipo, self.salario_liquido)
