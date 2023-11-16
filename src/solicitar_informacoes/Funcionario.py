@@ -108,7 +108,7 @@ class Funcionario:
   def salario(mensagem):
     mostrar_salario = True
     while mostrar_salario:
-      salario = input(f"{mensagem} (Ex.: 1500.00)").strip()
+      salario = input(f"{mensagem} (Ex.: 1500.00): ").strip()
 
       if len(salario) <= 0:
         print("Este campo é obrigatório.\n")
