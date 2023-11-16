@@ -1,3 +1,0 @@
-{"tipo": "Temporario", "nome": "Nat\u00e3n Teixeira Vieira", "endereco": "trete", "cpf": "999999999", "data_admissao": "10/5/2020", "salario_liquido": 1350.0}
-{"tipo": "Temporario", "nome": "teste", "endereco": "av. teste", "cpf": "84564515", "data_admissao": "10/02/2025", "salario_liquido": 10000.0}
-{"tipo": "Temporario", "nome": "Testinho", "endereco": "av.teste", "cpf": "656454", "data_admissao": "5415615", "salario_liquido": 1302}
